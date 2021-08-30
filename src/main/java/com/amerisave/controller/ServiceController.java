@@ -12,8 +12,8 @@ import lombok.RequiredArgsConstructor;
 public class ServiceController {
 
     private final IFirstService firstService;
-    @Inject
-    ISecondService secondService;
+
+    @Inject ISecondService secondService;
 
     @Get("/service/1")
     public String first() {
