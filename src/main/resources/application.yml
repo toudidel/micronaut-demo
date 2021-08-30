@@ -1,6 +1,7 @@
 micronaut:
   application:
     name: kkdemo
-logger:
-  levels:
-    ROOT: INFO
+#logger:
+#  levels:
+#    io:
+#      micronaut: INFO
